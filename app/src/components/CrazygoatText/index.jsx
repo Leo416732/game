@@ -69,7 +69,7 @@ export const CarouselComponent = () => {
           path="smooth"
           lineColor="white"
           showHead={false}
-          strokeWidth="1"
+          strokeWidth={1}
           startAnchor="bottom"
           endAnchor="top"
         />
