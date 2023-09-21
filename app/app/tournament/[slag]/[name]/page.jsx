@@ -4,7 +4,7 @@ import { useState } from "react";
 import StickNinja from "../../../games/stick_hero/Ninja";
 import { Game } from "../../../games/flappy_wolf/Game";
 import Cookies from "universal-cookie";
-import { getTournament, getToyInfo } from "@/services/getService";
+import { getTournament, getToyInfo } from "../../../../services/getService";
 import {
   AlertDialog,
   AlertDialogBody,
@@ -21,11 +21,11 @@ import {
 } from "@chakra-ui/react";
 import { AiFillHeart, AiFillStar } from "react-icons/ai";
 import { Field, Form, Formik } from "formik";
-import MInput from "@/components/Input";
-import MButton from "@/components/Button";
-import { getTournamentContract } from "@/app/contracts/TournamentContractHelper";
-import { parse18 } from "@/app/contracts/helpers";
-import { buyLifeAPI } from "@/services/getService";
+import MInput from "../../../../components/Input";
+import MButton from "../../../../components/Button";
+import { getTournamentContract } from "../../../../app/contracts/TournamentContractHelper";
+import { parse18 } from "../../../../app/contracts/helpers";
+import { buyLifeAPI } from "../../../../services/getService";
 import * as Yup from "yup";
 import { useRouter } from "next/navigation";
 

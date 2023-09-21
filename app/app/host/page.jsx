@@ -1,7 +1,7 @@
 "use client";
-import MButton from "@/components/Button";
-import MInput from "@/components/Input";
-import MText from "@/components/Text";
+import MButton from "../../components/Button";
+import MInput from "../../components/Input";
+import MText from "../../components/Text";
 import { Stack, Text } from "@chakra-ui/layout";
 import { Field, Form, Formik } from "formik";
 import { getHostFactoryContract } from "../contracts/HostContractHelper";

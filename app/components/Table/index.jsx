@@ -1,6 +1,6 @@
 "use client";
 
-import { getTournaments, getTotalPoints } from "@/services/getService";
+import { getTournaments, getTotalPoints } from "../../services/getService";
 import {
   Flex,
   Select,

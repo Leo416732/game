@@ -1,7 +1,7 @@
 "use client";
 
-import MButton from "@/components/Button";
-import HeadingText from "@/components/HeadingText";
+import MButton from "../../components/Button";
+import HeadingText from "../../components/HeadingText";
 import {
   Card,
   CardBody,
@@ -19,10 +19,10 @@ import { usePathname, useRouter } from "next/navigation";
 import { AiFillHeart, AiFillStar, AiFillTrophy } from "react-icons/ai";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { BsGiftFill } from "react-icons/bs";
-import { buyLifeAPI } from "@/services/getService";
+import { buyLifeAPI } from "../../services/getService";
 import { getTournamentContract } from "../contracts/TournamentContractHelper";
 import { parse18 } from "../contracts/helpers";
-import MInput from "@/components/Input";
+import MInput from "../../components/Input";
 import * as Yup from "yup";
 import { useEffect, useState } from "react";
 

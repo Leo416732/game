@@ -1,5 +1,4 @@
-import { getHostNftContract } from "@/app/contracts/HostNFTContractHelper";
-import MText from "@/components/Text";
+import { getHostNftContract } from "../app/contracts/HostNFTContractHelper";
 import {
   Grid,
   GridItem,

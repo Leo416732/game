@@ -1,7 +1,7 @@
 "use client";
 
-import { Detail } from "@/app/tournament/detail";
-import { getTournament, getToyInfo } from "@/services/getService";
+import { Detail } from "../../../app/tournament/detail";
+import { getTournament, getToyInfo } from "../../../services/getService";
 import { useState } from "react";
 import Cookies from "universal-cookie";
 

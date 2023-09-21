@@ -1,7 +1,7 @@
 "use client";
 
-import MTable from "@/components/Table";
-import MText from "@/components/Text";
+import MTable from "../../components/Table";
+import MText from "../../components/Text";
 
 import { Stack } from "@chakra-ui/react";
 import { useState } from "react";

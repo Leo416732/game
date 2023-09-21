@@ -22,11 +22,11 @@ import {
 import { AiFillHeart, AiFillStar } from "react-icons/ai";
 import { IoGameController } from "react-icons/io5";
 import { Field, Form, Formik } from "formik";
-import MInput from "@/components/Input";
-import MButton from "@/components/Button";
-import { getTournamentContract } from "@/app/contracts/TournamentContractHelper";
-import { parse18 } from "@/app/contracts/helpers";
-import { buyLifeAPI } from "@/services/getService";
+import MInput from "../../../components/Input";
+import MButton from "../../../components/Button";
+import { getTournamentContract } from "../../../app/contracts/TournamentContractHelper";
+import { parse18 } from "../../../app/contracts/helpers";
+import { buyLifeAPI } from "../../../services/getService";
 import * as Yup from "yup";
 
 export default function NinjaGame({

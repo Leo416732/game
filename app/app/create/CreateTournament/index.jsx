@@ -1,10 +1,9 @@
-"use client";
-import { getTournamentFactoryContract } from "@/app/contracts/TournamentFactoryContractHelper";
-import { parse18 } from "@/app/contracts/helpers";
-import MButton from "@/components/Button";
-import MInput from "@/components/Input";
-import MText from "@/components/Text";
-import { createTournamentAPI } from "@/services/getService";
+import { getTournamentFactoryContract } from "../../contracts/TournamentFactoryContractHelper";
+import { parse18 } from "../../contracts/helpers";
+import MButton from "../../../components/Button";
+import MInput from "../../../components/Input";
+import MText from "../../../components/Text";
+import { createTournamentAPI } from "../../../services/getService";
 import { Stack, Text } from "@chakra-ui/layout";
 import { Field, Form, Formik } from "formik";
 import moment from "moment";

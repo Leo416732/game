@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import { components } from "@/theme/components";
+import { components } from "./components";
 
 // const fonts = {
 //   heading:

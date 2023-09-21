@@ -1,7 +1,7 @@
-import { About } from "@/components/About";
-import CrazygoatText from "@/components/CrazygoatText";
-import Tournaments from "@/components/Tournaments";
-import { getTournaments } from "@/services/getService";
+import { About } from "../components/About";
+import CrazygoatText from "../components/CrazygoatText";
+import Tournaments from "../components/Tournaments";
+import { getTournaments } from "../services/getService";
 
 export default async function Home() {
   const data = await getTournaments();

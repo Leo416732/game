@@ -18,9 +18,9 @@ import {
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { verifyMessage } from "@/services/checkSIWE";
-import MButton from "@/components/Button";
-import { getHostNftContract } from "@/app/contracts/HostNFTContractHelper";
+import { verifyMessage } from "../services/checkSIWE";
+import MButton from "../components/Button";
+import { getHostNftContract } from "../app/contracts/HostNFTContractHelper";
 import { ConnectKitButton } from "connectkit";
 
 const HeaderMenuItem = ({ label, href, onClose }) => {
